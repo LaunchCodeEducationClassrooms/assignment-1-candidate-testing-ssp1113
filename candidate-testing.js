@@ -19,7 +19,6 @@ function askForName() {
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-
   for (i = 0; i < questions.length; i++) {
     candidateAnswers[i] = input.question(`${i+1}) ${questions[i]}\nYour Answer: `);
     console.log(`Correct Answer: ${correctAnswers[i]}\n`);
@@ -27,7 +26,6 @@ function askQuestion() {
 }
 
 function gradeQuiz(candidateAnswers) {
-
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
   
   let totalNumCorrect = 0;
