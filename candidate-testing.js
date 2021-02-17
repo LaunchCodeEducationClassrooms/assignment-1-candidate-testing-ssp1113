@@ -12,7 +12,6 @@ let questions = ["1) Who was the first American woman in space? ", "2) True or f
 let correctAnswers = ["Sally Ride", "True", "40", "Trajectory", "3"];
 let candidateAnswers = [];
 
-
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
   candidateName = input.question("What is your name? ");
@@ -50,7 +49,6 @@ function gradeQuiz(candidateAnswers) {
   }
   return grade;
 }
-
 
 function runProgram() {
   askForName();
