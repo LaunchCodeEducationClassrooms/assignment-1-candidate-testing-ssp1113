@@ -33,7 +33,7 @@ function gradeQuiz(candidateAnswers) {
   let totalNumCorrect = 0;
 
       for(i=0; i < correctAnswers.length; i++) {
-      if (candidateAnswers[i].toLowerCase() = correctAnswers[i].toLowerCase()) {
+      if (candidateAnswers[i].toLowerCase() == correctAnswers[i].toLowerCase()) {
       totalNumCorrect += 1;
       }
     } 
